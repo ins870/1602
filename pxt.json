@@ -1,11 +1,14 @@
 {
-    "name": "1602",
+    "name": "sbarra",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#v1.5.0"
+        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#v1.5.0",
+        "servo": "*",
+        "pxt-mfrc522": "github:joy-it/pxt-rfid-mfrc522#1.0.1",
+        "pxt-rb-joypi-advanced": "github:joy-it/pxt-rb-joypi-advanced#v1.0.9"
     },
     "files": [
         "main.blocks",
@@ -16,7 +19,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "6.0.18",
+        "target": "6.0.19",
         "targetId": "microbit"
     },
     "supportedTargets": [
